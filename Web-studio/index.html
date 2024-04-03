@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+</head>
+<style>
+.mogo-h{
+    font-family: Poppins;
+    font-size: larger;
+}
+.mogo-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+
+.project-h{
+    font-family: Poppins;
+    font-size: larger;
+}
+.project-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+
+.about-h{
+    font-family: Poppins;
+    font-size: larger; 
+}
+.about-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+.year-img{
+    width: 350px;
+    height: 200px; 
+}
+img{
+    width: 350px;
+    height: 200px;
+}
+.year-h{
+    font-family: Poppins;
+    font-size: larger;
+}
+.year-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+.jobs{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-list-link{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.logo{
+
+    
+    
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.header-logo{
+    color: #000000;
+}
+.contacts-list-link{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.contacts-list-link:hover,.nav-list-link:hover{
+    color: #2196F3;
+}
+header{
+    justify-content: center;
+    gap: 93px;
+    display: flex;
+align-items: center;
+}
+.nav-list,.contacts-list{
+    display: flex;
+    gap: 50px;
+}
+.section-hero{
+    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.section-hero-title{
+    font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;
+color: #FFFFFF;
+width: 696px;
+margin: 0 auto;
+
+}
+.section-hero-btn{
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-top: 30px;
+}
+.section-hero-btn:hover{
+    cursor: pointer;
+    background-color: #1093ff;
+}
+.section-features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features-list{
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.features-list-title{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+}
+.features-list-text{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+
+}
+ul,p,h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+  }
+  address {
+    font-style: normal;
+  }
+.features-list-title{
+    margin-bottom: 10px;
+}
+.work-title{
+    margin-bottom: 50px;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+color:#212121;
+}
+.work-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.team-title{
+    margin-bottom: 50px;
+ font-family: Roboto;
+font-size: 30px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+color:#212121;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.section-work{
+    padding-bottom: 94px;
+
+}
+.footer-logo{
+    color:#FFFFFF;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background:  #2F303A ;
+}
+.address{
+    margin-top: 20px;
+
+}
+.address-list-link{
+    
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.logo-2{
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.section-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.box{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+}
+.portfolio-section{
+padding-top: 94px;
+padding-bottom: 94px;
+max-width: 1200px;
+margin: 0 auto;
+}
+.filters-list{
+display: flex;
+justify-content: center;
+gap: 8px;
+margin-bottom: 30px;
+}
+.filters-list-btn:hover{
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.input-name,.input-tel,.input-email{
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    width: 100%;
+    height: 120px;
+}
+    
+    
+    .backdrop{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .modal{
+        border-radius: 12px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 528px;
+        
+        padding: 40px;
+    }
+    .backdrop.is-hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    button{ 
+        cursor: pointer;
+        border-radius: 12px;
+        font-family: "Poppins";
+        display: flex;
+        font-size: x-small;
+        justify-content: center;
+        background-color: #000000;
+        color: aqua;
+        width: 60px;
+        height: 15px;
+    }
+    input,textarea{
+        font-family: "Poppins";
+        border-radius: 6px;
+    }
+    button:hover{
+       
+        background-color: #ff0000;
+        color: #000000;
+    }
+    .button{
+        cursor: pointer;
+        border-radius: 12px;
+        font-size: x-large;
+        font-family: "Poppins";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: #000000;
+        color: aqua;
+        width: 150px;
+        height: 30px;
+        
+    }
+    .button:hover{
+        
+        background-color: #ffffff;
+        color: #000000;
+    }
+    textarea{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 160px;
+    }
+    input{
+        width: 150px;
+    }
+    .jobs li{
+    width: 350px;
+    }
+
+</style>
+<header class="header">
+    <div class="container">
+        <div class="header-wrap">
+<a href="" class="header-logo">Web<span class="header-studio">Studio</span></a>
+<!--Навігація-->
+<nav class="nav">
+<ul class="nav-list">
+    <li class="nav-list-item"><a href="./index.html" class="nav-list-link">Студія</a></li>
+    <li class="nav-list-item"><a href="./portfolio.html" class="nav-list-link active">Портфоліо</a></li>
+    <li class="nav-list-item"><a href="./projects.html" class="nav-list-link">Мої проекти</a></li>
+</ul>
+</nav>
+<ul class="contacts-list">
+    <li class="contacts-list-item">
+        <a href="mailto:" class="contacts-list-link">
+            <svg class="contacts-list-svg" width="16" height="12">
+                <use href="./symbol-defs.svg#icon-email-connection"></use>
+            </svg>info@devstudio.com</a>
+        </li>
+    <li class="contacts-list-item">
+        <a href="tel:" class="contacts-list-link">
+            <svg class="contacts-list-svg" width="10" height="16">
+                <use href="./symbol-defs.svg#icon-phone-connection"></use>
+            </svg>+38 096 111 11 11</a>
+    </li>
+</ul>
+<ul>
+    <li></li>
+</ul>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="section-hero">
+            <h1 class="section-hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button data-modal-open class="section-hero-btn">Замовити послугу</button>
+        </section>
+        <section class="section-features">
+            <ul class="features-list">
+                <li class="features-list-item">
+                    <h3 class="features-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="features-list-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                </li>
+                <li class="features-list-item">
+                    <h3 class="features-list-title">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="features-list-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </li>
+                <li class="features-list-item">
+                    <h3 class="features-list-title">ПЛАНУВАННЯ</h3>
+                    <p class="features-list-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li class="features-list-item">
+                    <h3 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="features-list-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section-work">
+            <h3 class="section-work-title">Чим ми займаємося</h3>
+            <ul class="work-list">
+                <li class="work-list-item"><img class="work-list-img" src="https://nazar2012.github.io/Web-Studio/img.png" alt=""></li>
+                <li class="work-list-item"><img class="work-list-img" src="https://nazar2012.github.io/Web-Studio/box%202.png" alt=""></li>
+                <li class="work-list-item"><img class="work-list-img" src="https://nazar2012.github.io/Web-Studio/img%20(1).png" alt=""></li>
+            </ul>
+        </section>
+        <section class="section-team">
+            <h3 class="team-title">Наша команда</h3>
+            <ul class="team-list">
+                <li class="team-list-item">
+                    <img class="team-list-img" src="https://nazar2012.github.io/Web-Studio/Igor.jpg" alt="">
+                    <h5 class="team-list-title">Ігор Дем'яненко</h5>
+                    <p class="team-list-text">Product Designer</p>
+                </li>
+                <li class="team-list-item">
+                    <img class="team-list-img" src="https://nazar2012.github.io/Web-Studio/olga.jpg" alt="">
+                    <h5 class="team-list-title">Ольга Рєпіна</h5>
+                    <p class="team-list-text">Frontend Developer</p>
+                </li>
+                <li class="team-list-item">
+                    <img class="team-list-img" src="https://nazar2012.github.io/Web-Studio/kola.jpg" alt="">
+                    <h5 class="team-list-title">Микола Тарасов</h5>
+                    <p class="team-list-text">Marketing</p>
+                </li>
+                <li class="team-list-item">
+                    <img class="team-list-img" src="https://nazar2012.github.io/Web-Studio/misha.jpg" alt="">
+                    <h5 class="team-list-title">Михайло Єрмаков</h5>
+                    <p class="team-list-text">UI Designer</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+       <div class="box">
+        <a class="logo" href="">Web<span class="footer-logo">Studio</span></a>
+        <address class="address">
+            <ul class="address-list">
+                <li class="address-list-item"><a class="address-list-link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li class="address-list-item"><a class="address-list-link" href="">info@devstudio.com</a></li>
+                <li class="address-list-item"><a class="address-list-link" href="">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
+       </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <p class="modal-desc">Залиште свої дані, ми вам передзвонимо</p>
+
+            <button class="modal-close-btn" data-modal-close>
+                close
+            </button>
+
+            <form class="modal-form">
+                <label class="modal-label">
+                    Ім'я
+                    <span class="modal-span">
+                      <input type="text" class="input-name"  name="user-name" required  minlength="3" maxlength="10">
+                      <svg width="12" height="12" class="modal-span-svg">
+                        <use href="./symbol-defs.svg#icon-modal-user" class="modal-span-icon"></use>
+                      </svg>
+                    </span>
+                </label>
+
+                <label class="modal-label">
+                    Телефон
+                    <span class="modal-span">
+                      <input type="tel" class="input-tel" name="user-tel" pattern="^380\d{9}$" title="Номер повинен починатися на 380 і повинен мати 12 цифр" maxLength="12" required>
+                      <svg width="15" height="12" class="modal-span-svg">
+                        <use href="./symbol-defs.svg#icon-modal-tel" class="modal-span-icon"></use>
+                      </svg>
+                    </span>
+                </label>
+
+                <label class="modal-label">
+                    Пошта
+                    <span class="modal-span">
+                  <input type="email" class="input-email" name="user-email" required>
+                  <svg width="15" height="12" class="modal-span-svg">
+                    <use href="./symbol-defs.svg#icon-modal-email" class="modal-span-icon"></use>
+                  </svg>
+                </span>
+                </label>
+
+             <label class="modal-label">
+              Коментар
+               <textarea name="user-message" class="modal-textarea" placeholder="Введіть текст"></textarea>
+             </label>
+             <div class="modal-privacy">
+              <input type="checkbox" name="user-privacy" class="privacy-input" required>
+              <span class="privacy-span">Погоджуюся з розсилкою та приймаю <a href="" class="privacy-link">Умови договору</a></span>
+             </div>
+             <button class="modal-send-btn" type="submit">Відправити</button>
+
+            </form>
+
+        </div>
+    </div>
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>
